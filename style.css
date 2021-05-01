@@ -9,7 +9,7 @@ header{
 .container{
     display: flex;
     margin: 0px 100px;
-    justify-content: space-between;
+    /* justify-content: ; */
     
 }
 .logo{
@@ -17,6 +17,7 @@ header{
     font-size: 20px;
     text-transform: uppercase;
     margin: 10px 0px;
+    margin-right: 3rem;
     /* margin-left: 0%; */
 }
 .left{
@@ -25,6 +26,7 @@ header{
 }
 .right{
     margin: 10px;
+    margin-left: 19rem;
     /* border: 2px solid blue; */
 }
 .left a{
