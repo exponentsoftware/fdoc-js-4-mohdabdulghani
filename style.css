@@ -264,9 +264,46 @@ padding: 12px;
          background:url("images/bg1.jpeg");
          background-size: cover;
      }
+
+     #sidenav{
+         position: fixed;
+         top: 0;
+         right: 0;
+         width: 250px;
+         height: 100vh;
+         background:rgba(0,0,0,0.8);
+         padding:100px 0px;
+        }
+
+        #sidenav a{
+            /* background:rgba(0, 0, 0, 0.8); */
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px 30px;
+            padding:20px;
+            display:block;
+
+        }
+        #sidenav a:hover{
+            background:#e74c3c;
+            transition:0.9s;
+        }
+
+      
+     #menubar{
+         position: fixed;
+         top:18px;
+         background-color:black;
+         color: black;
+         left:50px;
+         width: 50px;
+         cursor: pointer;
+     }
+
      .menu a{display: none;}
     .logo{
-        padding-left: 50px;
+        padding-left: 150px;
     } 
     .text{
         margin-left: 50px;
