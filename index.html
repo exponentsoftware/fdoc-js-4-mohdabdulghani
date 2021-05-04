@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
     <title>Document</title>
 </head>
 <body>
   
     
-  <header>
+  <header id="headers">
     <nav>
     <div class="logo">PORTFO<span>LIO</span></div>
       <div class="menu">
@@ -145,7 +147,21 @@
   <img src="images/icon.png" width="100"    alt="">
 </section>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-    <script src="script.js"></script>
+<script>
+  jQuery(document).ready(function(){
+    $('header').ripples({
+      imageUrl: "images/b1.jpeg",
+      resolution: 200,
+      dropRadius: 20,
+      perturbance: 0.07,
+      
+    });
+  });
+</script>
+
+<script src="jquery.ripples-min.js"></script>
+
 </body>
 </html>
