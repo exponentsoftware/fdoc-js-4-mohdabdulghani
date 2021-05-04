@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
+  <script src="typed.min.js"></script>
 
     <title>Document</title>
 </head>
@@ -28,7 +29,7 @@
   <div class="text">
     <p>Hello, I am</p>
     <h1>Abdul Ghani</h1>
-    <p>And I am a Front End Developer</p>
+    <p>And I am a <span id="ani" style="color: #e74c3c;"></span></p>
     <button class="c-btn">Hire Me</button>
   </div>
 </header>
@@ -44,7 +45,9 @@
 
     </div>
     <div class="about-right-col">
-      <p id="p-title">Hello, I'm Abdul Ghani & I'm a Youtuber</p>
+      <p id="p-title">Hello, I'm Abdul Ghani & I'm a 
+        <span id="ani2" style="color: #e74c3c;">
+      </span></p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat nemo tempore amet necessitatibus ipsa possimus. Inventore, optio autem accusantium reiciendis fugiat blanditiis doloremque veniam deleniti adipisci sunt vel perspiciatis.</p>
       <button class="c-btn">Download CV</button>
     </div>
@@ -98,19 +101,19 @@
     <p>What we Provide</p>
   </div>
   <div class="services-row">
-    <div class="services-box">
+    <div class="services-box" data-tilt>
       <img src="images/b2.png" alt="">
       <h2>Web Design</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aspernatur.</p>
 
   </div>
-  <div class="services-box">
+  <div class="services-box" data-tilt>
     <img src="images/b2.png" alt="">
     <h2>App's Development</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aspernatur.</p>
 
 </div>
-<div class="services-box">
+<div class="services-box" data-tilt>
   <img src="images/b2.png" alt="">
   <h2>Web Development </h2>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aspernatur.</p>
@@ -143,7 +146,7 @@
 </section>
 
 <section id="footer">
-  <h2>Develop By Mohd Abdul Ghani</h2>
+  <h2>Developed By Mohd Abdul Ghani</h2>
   <img src="images/icon.png" width="100"    alt="">
 </section>
 
@@ -161,7 +164,25 @@
   });
 </script>
 
+<script>
+  let animate = new Typed('#ani',{
+    strings:["Front End Developer", "Youtuber", "Blogger"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+  })
+</script>
+<script>
+  let animate2 = new Typed('#ani2',{
+    strings:[ "Front End Developer","Front End Developer", "Youtuber", "Blogger"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+  })
+</script>
+
 <script src="jquery.ripples-min.js"></script>
+<script src="tilt.jquery.min.js"></script>
 
 </body>
 </html>
