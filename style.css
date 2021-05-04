@@ -242,3 +242,77 @@ progress{
     font-size: 20px;
 
 }
+
+/* mediaqueries */
+ @media only screen and (max-width:770px){
+     header{
+         background:url("images/bg1.jpeg");
+         background-size: cover;
+     }
+     .menu a{display: none;}
+    .logo{
+        padding-left: 50px;
+    } 
+    .text{
+        margin-left: 50px;
+    }
+    
+    .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-left-col img{
+        width: 100%;
+        padding:50px;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+    }
+    .skills-left-col{
+        flex-basis: 100%;
+    
+        /* text-align: justify; */
+    }
+    .skills-right-col{
+        flex-basis: 100%;
+    
+        /* text-align: justify; */
+    }
+
+
+    .progress-div{
+        width: 100%;
+        margin: auto;
+
+    }
+    progress{
+        width: 100%;
+    }
+
+    .progress-div p{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: justify;
+    }
+
+    .services-box{
+        flex-basis: 100%;
+        /* text-align: center;
+        box-shadow: 2px 3px 5px grey;
+        padding:20px;
+        cursor: pointer;*/
+        margin-top: 20px; 
+    }
+    .services-box img{
+        width: 60%;
+    }
+
+
+    .contact-left-col{
+        flex-basis: 100%;
+    }
+    .contact-right-col{
+        flex-basis: 100%;
+    }
+
+ }
