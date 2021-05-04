@@ -229,3 +229,14 @@ progress{
     width: 60%;
     padding:10px
 }
+
+#footer{
+    background: #e74c3c;
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+}
