@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  
+<link rel="stylesheet" href="floating-wpp.min.css">
   <script src="script.js"></script>
   <script src="typed.min.js"></script>
 
@@ -71,24 +73,24 @@
   <div class="skills-right-col">
   <div class="progress-div">
    <p> <span>HTML</span><br>
-    <progress value="80" max="100"></progress>
-    <span>80%</span>
+    <progress value="95" max="100"></progress>
+    <span>95%</span>
   </p>
     <p> <span>CSS</span><br>
-      <progress value="80" max="100"></progress>
-      <span>80%</span>
+      <progress value="94" max="100"></progress>
+      <span>94%</span>
     </p>
     <p> <span>JAVASCRIPT</span><br>
-      <progress value="80" max="100"></progress>
-      <span>80%</span>
+      <progress value="96" max="100"></progress>
+      <span>96%</span>
     </p>
     <p> <span>REACT JS</span><br>
-      <progress value="80" max="100"></progress>
-      <span>80%</span>
+      <progress value="94" max="100"></progress>
+      <span>94%</span>
     </p>
     <p> <span>REDUX</span><br>
-      <progress value="80" max="100"></progress>
-      <span>80%</span>
+      <progress value="90" max="100"></progress>
+      <span>90%</span>
     </p>
   </div>
 </div>
@@ -98,7 +100,7 @@
 <section id="services">
   <div class="section-info">
     <h1>Services</h1>
-    <p>What we Provide</p>
+    <p>What wi Provide</p>
   </div>
   <div class="services-row">
     <div class="services-box" data-tilt>
@@ -124,7 +126,7 @@
 <section id="contact">
   <div class="section-info" style="color:white;">
     <h1>Get in Touch</h1>
-    <p style="color:black">We are Available</p>
+    <p style="color:black">I'M Available</p>
   </div>
   <div class="contact-row">
     <div class="contact-left-col">
@@ -147,8 +149,17 @@
 
 <section id="footer">
   <h2>Developed By <br> Mohd Abdul Ghani</h2>
-  <img src="images/icon.png" width="100"    alt="">
+  <!-- <img src="images/icon.png" width="100"    alt=""> -->
+  
+
+
 </section>
+<div id="myDiv"></div>
+<!-- <div class="whatsapp">
+  <a href="https://api.whatsapp.com/send?phone=91 6302053263" target="_blank">    
+  <h5><i class="fa fa-whatsapp fa-3x " aria-hidden="true"></i></h5></a>
+                  </div> -->
+  <!-- <a href="https://chatwith.io/s/5f33ce0c4aede" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;"></a> -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
@@ -180,6 +191,25 @@
     loop:true,
   })
 </script>
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+    phone: '+91 8639214805',
+    popupMessage: 'Hello, how can i help you?',
+    message: "I need a website",
+    showPopup: true,
+    showOnIE: false,
+    headerTitle: 'Welcome!',
+    headerColor: 'crimson',
+    backgroundColor: 'crimson',
+    // buttonImage: '<img src="burger.svg" />'
+});
+  });
+</script>
+
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="floating-wpp.min.js"></script>
 
 <script src="jquery.ripples-min.js"></script>
 <script src="tilt.jquery.min.js"></script>

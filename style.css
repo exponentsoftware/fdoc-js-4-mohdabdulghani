@@ -243,6 +243,21 @@ progress{
 
 }
 
+
+/* .whatsapp{
+ position: fixed;
+ margin-right: 0px;
+ margin-top: 52%;
+} */
+
+
+ /* .whatsapp h5{
+color: white;
+background: #20b20f;
+padding: 12px;
+ border-radius: 10px;
+} */
+
 /* mediaqueries */
  @media only screen and (max-width:770px){
      header{
