@@ -3,14 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#sidenav{
-    display: none;
-    
-}
-#menubar{
-    display: none;
-    
-}
+
  header{
      width: 100%;
      height: 100vh;
@@ -266,8 +259,17 @@ padding: 12px;
  border-radius: 10px;
 } */
 
+@media only screen and (min-width:770px){
+    #sidenav{
+        display: none;
+        
+    }
+    #menubar{
+        display: none;
+    }
+        
+}
 
-/* mediaqueries */
  @media only screen and (max-width:770px){
      header{
          background:url("images/bg1.jpeg");
