@@ -36,9 +36,9 @@
   </div>
 </header>
 
+<img src="images/menu.jpg" alt="" id="menubar">
+
 <section id="sidenav">
-  <img src="images/menu.jpg" alt="" id="menubar">
-         <img src="" alt="">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Skills</a>
@@ -215,9 +215,25 @@
     headerTitle: 'Welcome!',
     headerColor: 'crimson',
     backgroundColor: 'crimson',
+    position:"right",
     // buttonImage: '<img src="burger.svg" />'
 });
   });
+</script>
+
+<script>
+  var menu = document.getElementById("menubar")
+  var sidenav = document.getElementById("sidenav")
+  // sidenav.style.width="0px";
+  menu.onclick=function(){
+    if(sidenav.style.width=="0px"){
+      sidenav.style.width="250px"
+    }else{
+      sidenav.style.width="0px"
+    }
+    // console.log("clicked")
+  }
+
 </script>
 
 
