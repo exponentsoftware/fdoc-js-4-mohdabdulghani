@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* #sidenav{
+#sidenav{
     display: none;
+    
 }
 #menubar{
     display: none;
-} */
+    
+}
  header{
      width: 100%;
      height: 100vh;
@@ -305,14 +307,15 @@ padding: 12px;
          top:18px;
          background-color:black;
          color: black;
-         left:30px;
+         left:10px;
          width: 50px;
          cursor: pointer;
      }
 
      .menu a{display: none;}
     .logo{
-        padding-left: 150px;
+        padding-left: 60px;
+        font-size: 40px;
     } 
     .text{
         margin-left: 50px;
